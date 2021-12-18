@@ -23,7 +23,7 @@ tableData.forEach((data_row) => {
 // filter button
 var button = d3.select("#filter-btn")
 
-// 
+// prevent default to 
 button.on("click", function(event) {
     d3.event.preventDefault();
     tbody.html("");
@@ -37,7 +37,7 @@ button.on("click", function(event) {
 
 var filteredData = tableData.filter(tableData => tableData.datetime === input_value);
 filteredData.forEach((data_row) => {
-    var table_row = tbody_filtered.append("tr");  // not sure why not appending the cols names?
+    var table_row = tbody_filtered.append("tr");  
     table_row.append("td").text(data_row.datetime);
     table_row.append("td").text(data_row.city);
     table_row.append("td").text(data_row.state);
