@@ -1,6 +1,5 @@
-# javascript-challenge 
-
-## JavaScript Homework - JavaScript and DOM Manipulation
+# UWA DATA ANALYSIS COURSE
+# JavaScript Homework - JavaScript and DOM Manipulation
 
 
 ### Background
@@ -26,4 +25,6 @@ You can handle this... right? The planet Earth needs to know what we have found!
   * Used a date form in index.html and wrote JavaScript code that listens for events and searches through the `date/time` column to find rows that match user input.
 
 
-### Level 2: not completed
+### Copyright
+
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
